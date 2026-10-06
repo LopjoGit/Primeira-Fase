@@ -1,25 +1,24 @@
 programa {
   funcao inicio() {
-    // entendimento do problema
-      // calcular o valor de vale trocas, considero preco e quantidade 
-    
-    // info e variaveis
-    real valeTroca, preco
-    inteiro quantidade 
-     //entrada de dados
-     escreva("Quanto voce gastou no seus sapatos?: ")
-     leia(preco) 
-     escreva("Quantos pares voce quer trocar?: ")
-     leia(quantidade)
-     //processamento 
-     valeTroca = preco * quantidade
-     //saida
-     escreva("O preço de cada sapato foi:\n ")
-     escreva(preco)
-     escreva("\nA quantidade de pares trocados foi: \n")
-     escreva(quantidade)
-     escreva("\nO valor em vale trocas foi: \n")
-     escreva(valeTroca)
-     // eu podia botar ("voce vai receber + valeTroca")
+   // entendimento do problema
+    // criar um programa que calcule os devs/escravos que tem na equipe lol
+
+
+   // info e variaveis
+   inteiro clts, escravos, pjs, devs
+   
+   //entrada de dados
+   escreva("Possuimos quantos carteiras assinadas? ")
+   leia(clts)
+   escreva("E estagirios? ")
+   leia(escravos)
+   escreva("E por ultimo, quantos Devs PJ Possuimos? ")
+   leia(pjs)
+
+   //processamento
+    devs = escravos + pjs + clts
+   //saida
+  escreva("A quantidade de Devs que temos na empresa é:\n")
+  escreva(devs)
   }
 }
